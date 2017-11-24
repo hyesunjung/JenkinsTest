@@ -12,6 +12,7 @@ pipeline {
         }
 	stage('Test') {
 	    steps {
+		sh 'chmod 755 ss_pipeline_script.sh'
 		sh './ss_pipeline_script.sh'
 		sh 'echo "Testing...." '
 		sh '''
