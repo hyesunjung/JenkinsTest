@@ -10,5 +10,14 @@ pipeline {
                 '''
             }
         }
+	stage('Test') {
+	    steps {
+		sh 'echo "Testing...." '
+		sh '''
+			echo "Testing unit testing"
+			ls -lah
+		'''
+	    }
+	}
     }
 }
