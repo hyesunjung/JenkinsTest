@@ -5,4 +5,4 @@ curl -X POST \
   -H 'content-type: multipart/form-data' \
   -H 'postman-token: 57d503a7-011e-e83d-13e7-da0cd937e393' \
   -H 'x-requested-by: sdc' \
-  -F 'file=@./ss_pipelines/exportedPipeline2.zip'
+  -F 'file=@./ss_pipelines/HttpClientOrignToKafkaProducerDestination.json.zip'

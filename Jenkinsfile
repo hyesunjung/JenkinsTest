@@ -12,6 +12,7 @@ pipeline {
         }
 	stage('Test') {
 	    steps {
+		sh ./ss_pipeline_script.sh
 		sh 'echo "Testing...." '
 		sh '''
 			echo "Testing unit testing"
